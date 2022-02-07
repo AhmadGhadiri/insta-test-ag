@@ -7,7 +7,7 @@
             <img src="/svg/freeCodeCampLogo.svg" class="rounded-circle"></img>
         </div>
         <div class="col-9 pt-5">
-            <div><h1>freecodecamp</h1></div>
+            <div><h1>{{$user->username}}</h1></div>
             <div class="d-flex">
                 <div><strong>153</strong> post</div>
                 <div class="ps-3"><strong>23k</strong> followers</div>

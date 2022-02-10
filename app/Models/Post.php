@@ -14,6 +14,6 @@ class Post extends Model
     //Define the database relationship between Post and User
     public function user()
     {
-        $this->belongsTo(User::class);
+        return $this->belongsTo(User::class);
     }
 }

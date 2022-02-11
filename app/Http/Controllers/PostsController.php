@@ -11,7 +11,10 @@ class PostsController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth');
+        // this will except the show function from authorization middleware
+        $this->middleware('auth', ['except' => [
+            'show'
+        ]]);
     }
     //
     public function create()
